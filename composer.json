@@ -1,0 +1,25 @@
+{
+    "name": "zenstruck/foundry-next-niko",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [],
+    "require": {
+        "php": ">=8.0",
+        "symfony/dependency-injection": "^5.4 || ^6.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.4",
+        "phpunit/phpunit": "^9.5.0",
+        "symfony/phpunit-bridge": "^6.1",
+        "symfony/var-dumper": "^5.4|^6.0"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": { "Zenstruck\\Foundry\\": ["src/"] }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
